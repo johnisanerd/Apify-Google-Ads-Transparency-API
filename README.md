@@ -39,9 +39,13 @@ List any advertiser's ads from the Google Ads Transparency Center as structured 
    # Get your free API key at: https://apify.com?fpr=9n7kx3
    ```
 
-4. **Run the example**
+4. **Run an example**
    ```bash
+   # Single example:
    uv run python google-ads-transparency-api-example.py
+
+   # Batch example (pulls several advertisers' ad libraries in one run):
+   uv run python google-ads-transparency-api-batch-example.py
    ```
 
 ### Alternative: set the API key directly
@@ -88,6 +92,8 @@ MCP-ready. AI agents can call it as a tool through the hosted Apify MCP server t
   "maxResultsPerAdvertiser": 100
 }
 ```
+
+For a runnable batch script, see `google-ads-transparency-api-batch-example.py` in this repo.
 
 ## Input Parameters
 
@@ -259,4 +265,4 @@ More help: https://docs.apify.com/platform/integrations/mcp
 
 *Use the Google Ads Transparency API to build competitor ad libraries in your product or AI agent.*
 
-Last Updated: 2026.06.01
+Last Updated: 2026.06.11

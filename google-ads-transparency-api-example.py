@@ -27,6 +27,7 @@ client = ApifyClient(os.getenv("APIFY_API_TOKEN"))
 run_input = {
     "advertiserId": "AR01614014350098432001",
     "maxResultsPerAdvertiser": 20,
+    # "region": "...",  # optional Google ads region code; leave out for ads shown anywhere
 }
 
 # Run the Actor and wait for it to finish
