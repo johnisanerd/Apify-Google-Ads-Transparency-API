@@ -265,4 +265,4 @@ More help: https://docs.apify.com/platform/integrations/mcp
 
 *Use the Google Ads Transparency API to build competitor ad libraries in your product or AI agent.*
 
-Last Updated: 2026.07.04
+Last Updated: 2026.07.05
